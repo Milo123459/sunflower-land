@@ -16,7 +16,6 @@ export class Label extends Phaser.GameObjects.Container {
       text,
       5,
     );
-    const bounds = name.getBounds();
 
     const label = (this.scene.add as any).rexNinePatch({
       x: 0,
